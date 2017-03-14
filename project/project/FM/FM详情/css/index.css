@@ -1,0 +1,89 @@
+/**{*/
+    /*box-sizing: border-box !important;*/
+    /*text-align: center !important;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+html,body{
+    width: 100%;
+    height: 100%;
+    /*overflow-x: hidden;*/
+}
+body>div{
+    /*height: 1080px;*/
+    background-color: #777777;
+    margin: 0 auto !important;
+}
+ui,li{
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+}
+a{
+    color: black;
+    text-decoration: none !important;
+}
+
+.zmMain{
+    width: 100%;
+    height: 960px;
+    background-color: deeppink;
+}
+.zmMain .zmMainLeft{
+    display: inline-block;
+    width: 94.8%;
+    height: 100%;
+    float: left;
+    background-color: #00FFFF;
+    background-image: url(../imgs/beij.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.zmMainRight{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    background-color: #232323;
+    position: absolute;
+    right: 0%;
+}
+.zmMainRight .zmRightHead{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 4%;
+}
+.zmMainRight .zmRightHead img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.zmMainRight .zmRightHead span a{
+    color: white !important;
+    position: relative;
+    top: 4%;
+}
+.zmMainRight .zmRightGroom{
+    width: 100px;
+    height: 220px;
+    position: relative;
+    top: 4.5%;
+}
+.zmRightGroom ul{
+    width: 100px;
+    height: 220px;
+    display: inline-block;
+}
+.zmRightGroom ul li{
+    display: inline-block;
+    width: 100px;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+    left: -11%;
+}
+.zmRightGroom ul li a{
+    color: white;
+    font-size: 1.1em;
+}
